@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+* {
+    font-family: 'Mouse Memoirs', sans-serif;
+    background-color: darkgray;
+    font-size: 16px;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.division2 {
+    padding: 50px 20px 10px 30px;
+}
+
+.division-1 {
+    border-right: 2px solid rgba(37 35 35 / 9%);
+}
+
+.title h1 {
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.conimag {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conimag div {
+    margin: 0px 10px 0px 10px;
+}
+
+.aboutme h3,
+.aboutme p,
+.aboutme,
+.contacto,
+.contacto h3,
+.contacto p,
+.icon,
+.inferior1 {
+    margin: 0px;
+    background-color: black;
+}
+
+.inferior1 p,
+.inferior1 h3,
+.icon a {
+    color: white;
+    background-color: black;
+    text-align: justify;
+}
+
+.aboutme p,
+.contacto h3,
+.contacto p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inferior1 {
+    padding: 20px 50px 20px 50px;
+}
+
+.educa,
+.experiencia,
+.skills {
+    border-top: 7px solid rgba(37 35 35 / 25%);
+    border-top: 7px solid transparent;
+    -moz-border-image: -moz-linear-gradient(left, #46444436 0%, #000000 100%);
+    -webkit-border-image: -webkit-linear-gradient(left, #46444436 0%, #000000 100%);
+    border-image: linear-gradient(to right, #46444436 0%, #000000 100%);
+    border-image-slice: 1;
+}
+
+.icon a {
+    text-decoration: none;
+}
+
+.icon {
+    padding: 5px;
+}
